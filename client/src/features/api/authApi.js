@@ -3,7 +3,7 @@ import { userLoggedIn, userLoggedOut } from "../authSlice";
 
 const url = "https://lms-mern-project-hzmu.onrender.com"
 
-const USER_API = `url/api/v1/user/`
+const USER_API = `${url}/api/v1/user/`
 
 export const authApi = createApi({
     reducerPath:"authApi",
