@@ -1,6 +1,8 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-const COURSE_API = "http://localhost:8080/api/v1/course";
+const url = "https://lms-mern-project-hzmu.onrender.com"
+
+const COURSE_API = `url/api/v1/course`;
 
 export const courseApi = createApi({
   reducerPath: "courseApi",
